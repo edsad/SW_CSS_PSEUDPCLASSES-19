@@ -1,0 +1,23 @@
+body {
+  background-color: beige;
+}
+
+.top, .block {
+  width: 100%;
+/*  background-color: grey;*/
+  display: inline;
+  list-style-type: none;
+}
+
+.inline {
+  display: block;
+  border: solid blue 1px;
+  margin: 25px;
+}
+
+.n-child :nth-of-type(2) {
+  border: solid red 1px;
+}
+.n-child :nth-of-type(4) {
+  border: solid red 1px;
+}
